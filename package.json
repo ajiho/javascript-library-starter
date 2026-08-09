@@ -50,6 +50,7 @@
     "@vitest/coverage-v8": "^4.1.10",
     "@vitest/ui": "^4.1.10",
     "cross-env": "^10.1.0",
+    "jsdom": "^30.0.1",
     "npm-run-all2": "^9.0.3",
     "oxfmt": "^0.62.0",
     "oxlint": "^1.77.0",
