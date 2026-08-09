@@ -1,19 +1,27 @@
 # JavaScript Library Starter
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://www.lujiahao.com/sponsor)
+[![Test](https://img.shields.io/github/actions/workflow/status/ajiho/javascript-library-starter/tests.yml?label=Test&logo=github&style=flat-square&branch=main)](https://github.com/ajiho/javascript-library-starter/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/github/ajiho/javascript-library-starter/graph/badge.svg?token=YR846BMB6Y)](https://codecov.io/github/ajiho/javascript-library-starter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ajiho/javascript-library-starter/blob/main/LICENSE)
+---
+
 一个现代化的 JavaScript 库开发起始模板。
 
-集成 **Rolldown、Oxlint、Oxfmt、Vitest、Size Limit、Simple Git Hooks、Release Please 和 pnpm**，开箱即用地提供从开发、测试、构建到发布的完整工具链。
+开箱即用地提供从开发、测试、构建到发布的完整工具链，让你专注于编写高质量的 JavaScript 库，而无需重复搭建基础工程配置。
 
-## 特性
+## 集成
 
-- ⚡ **Rolldown** — 高性能 JavaScript 打包
-- 🔍 **Oxlint** — 极速代码检查
-- ✨ **Oxfmt** — 极速代码格式化
-- 🧪 **Vitest** — 单元测试与覆盖率
-- 📦 **Size Limit** — 构建产物体积检测
-- 🪝 **Simple Git Hooks** — 轻量 Git Hooks
-- 🚀 **Release Please** — 自动化版本管理与发布
-- 📦 **pnpm** — 快速、节省磁盘空间的包管理器
+- ⚡ **[Rolldown](https://rolldown.rs/)** — 高性能 JavaScript 打包
+- 🔍 **[Oxlint](https://oxc.rs/docs/guide/usage/linter.html)** — 极速代码检查
+- ✨ **[Oxfmt](https://oxc.rs/docs/guide/usage/formatter.html)** — 极速代码格式化
+- 🧪 **[Vitest](https://vitest.dev/)** — 单元测试与覆盖率
+- 📊 **[Codecov](https://about.codecov.io/)** — 覆盖率报告上传与持续集成分析平台
+- 📦 **[Size Limit](https://github.com/ai/size-limit)** — 构建产物体积检测
+- 🪝 **[Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks)** — 轻量 Git Hooks
+- 🚀 **[Release Please](https://github.com/googleapis/release-please)** — 自动化版本管理与发布
+- 📦 **[pnpm](https://pnpm.io/)** — 快速、节省磁盘空间的包管理器
+- 🤖 **[Renovate](https://docs.renovatebot.com/)** — 自动更新依赖版本
 
 ## 使用
 
@@ -24,9 +32,9 @@
 创建完成后克隆你的新仓库并安装依赖：
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/my-library.git
+git clone https://github.com/YOUR_USERNAME/your-library.git
 
-cd my-library
+cd your-library
 
 pnpm install
 ```
@@ -36,9 +44,9 @@ pnpm install
 也可以直接克隆此模板：
 
 ```bash
-git clone https://github.com/ajiho/javascript-library-starter.git my-library
+git clone https://github.com/ajiho/javascript-library-starter.git your-library
 
-cd my-library
+cd your-library
 
 pnpm install
 ```
