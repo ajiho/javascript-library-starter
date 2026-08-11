@@ -21,7 +21,7 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       jsdom:
-        specifier: ^30.0.1
+        specifier: ^30.0.0
         version: 30.0.1
       npm-run-all2:
         specifier: ^9.0.3
