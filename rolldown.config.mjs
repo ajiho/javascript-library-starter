@@ -5,6 +5,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 export default defineConfig({
   input: "src/index.js",
+  platform: "browser",
   transform: {
     target: "es2022",
   },
