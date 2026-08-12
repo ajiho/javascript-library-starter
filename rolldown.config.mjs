@@ -1,5 +1,6 @@
 import { defineConfig } from "rolldown";
-import { cp } from "node:fs/promises";
+
+import { copyFiles } from "rolldown-plugin-copy-files";
 
 const isProd = process.env.NODE_ENV === "production";
 
@@ -24,11 +25,14 @@ export default defineConfig({
     },
   ],
   plugins: [
-    {
-      name: "copy-types",
-      async closeBundle() {
-        await cp("src/index.d.ts", "dist/index.d.ts");
-      },
-    },
+    copyFiles({
+      targets: [
+        {
+          src: "src/*.d.ts",
+          dest: "dist",
+          options: { up: 1 },
+        },
+      ],
+    }),
   ],
 });
