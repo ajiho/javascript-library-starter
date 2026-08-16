@@ -5,6 +5,7 @@
   "ignorePresets": [":pinDevDependencies"],
   "prHourlyLimit": 5,
   "timezone": "Asia/Shanghai",
+  "minimumReleaseAge": "1 day",
   "labels": ["dependencies", "renovate"],
   "rangeStrategy": "bump",
   "packageRules": [
