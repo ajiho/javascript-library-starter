@@ -5,10 +5,14 @@
   "ignorePresets": [":pinDevDependencies"],
   "prHourlyLimit": 5,
   "timezone": "Asia/Shanghai",
-  "minimumReleaseAge": "1 day",
   "labels": ["dependencies", "renovate"],
   "rangeStrategy": "bump",
   "packageRules": [
+    {
+      "description": "Wait 1 hour for npm releases",
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "1 hour"
+    },
     {
       "groupName": "dev dependencies",
       "matchDepTypes": ["devDependencies"]
@@ -18,8 +22,8 @@
       "matchDepTypes": ["peerDependencies"]
     },
     {
-      "matchPackageNames": ["node"],
-      "enabled": false
+      "enabled": false,
+      "matchPackageNames": ["node"]
     },
     {
       "matchPackageNames": ["/oxlint/"],
