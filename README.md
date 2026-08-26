@@ -24,7 +24,7 @@
 - 🚀 **[Release Please](https://github.com/googleapis/release-please)** — 自动化版本管理与发布
 - 📦 **[pnpm](https://pnpm.io/)** — 快速、节省磁盘空间的包管理器
 - 🤖 **[Renovate](https://docs.renovatebot.com/)** — 自动更新依赖版本
-- 🤖 **[Publint](https://publint.dev/docs/)** — npm 包配置与发布产物检查
+- 📖 **[Publint](https://publint.dev/docs/)** — npm 包配置与发布产物检查
 
 ## 使用
 

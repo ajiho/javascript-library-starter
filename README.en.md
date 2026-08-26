@@ -25,7 +25,7 @@ Provides a complete toolchain from development, testing, building to publishing 
 - 🚀 **[Release Please](https://github.com/googleapis/release-please)** — Automated versioning and publishing
 - 📦 **[pnpm](https://pnpm.io/)** — Fast, disk-space efficient package manager
 - 🤖 **[Renovate](https://docs.renovatebot.com/)** — Automated dependency updates
-- 🤖 **[Publint](https://publint.dev/docs/)** — npm package config & publish artifact checking
+- 📖 **[Publint](https://publint.dev/docs/)** — npm package config & publish artifact checking
 
 ## Usage
 
