@@ -30,7 +30,7 @@ importers:
         specifier: ^0.64.0
         version: 0.64.0
       oxlint:
-        specifier: ^1.79.0
+        specifier: ^1.80.0
         version: 1.80.0
       publint:
         specifier: ^0.3.24
