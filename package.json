@@ -37,7 +37,7 @@
     "prepare": "simple-git-hooks",
     "fmt": "oxfmt",
     "lint": "oxlint",
-    "lint:fix": "oxlint --fix",
+    "lint:fix": "pnpm run lint --fix",
     "size": "size-limit",
     "clean": "rimraf dist",
     "build:base": "rolldown -c",
