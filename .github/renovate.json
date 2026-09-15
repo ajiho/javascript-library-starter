@@ -9,13 +9,9 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
-      "description": "Wait 1 hour for npm releases",
+      "description": "Wait 1 day for npm releases",
       "matchDatasources": ["npm"],
-      "minimumReleaseAge": "1 hour"
-    },
-    {
-      "groupName": "dev dependencies",
-      "matchDepTypes": ["devDependencies"]
+      "minimumReleaseAge": "1 day"
     },
     {
       "enabled": false,
