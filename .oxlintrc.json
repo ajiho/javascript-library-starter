@@ -3,11 +3,12 @@
   "ignorePatterns": ["dist/**", "coverage/**", "vendor/**", "test/snapshots/**"],
   "plugins": ["typescript", "unicorn", "oxc"],
   "categories": {
-    "correctness": "error"
+    "correctness": "error",
+    "suspicious": "warn"
   },
   "rules": {
     "unicorn/no-empty-file": "off",
-        "no-unused-vars": [
+    "no-unused-vars": [
       "error",
       {
         "fix": {
@@ -16,7 +17,7 @@
         },
         "caughtErrorsIgnorePattern": "^_"
       }
-    ],
+    ]
   },
   "env": {
     "builtin": true
