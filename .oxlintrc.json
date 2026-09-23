@@ -7,7 +7,16 @@
   },
   "rules": {
     "unicorn/no-empty-file": "off",
-    "no-unused-vars": ["error", { "caughtErrorsIgnorePattern": "^_" }]
+        "no-unused-vars": [
+      "error",
+      {
+        "fix": {
+          "imports": "fix",
+          "variables": "off"
+        },
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
   },
   "env": {
     "builtin": true
