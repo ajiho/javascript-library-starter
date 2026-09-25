@@ -12,19 +12,23 @@
 
 开箱即用地提供从开发、测试、构建到发布的完整工具链，让你专注于编写高质量的 JavaScript 库，而无需重复搭建基础工程配置。
 
+> [!TIP]
+> 喜欢使用 TypeScript？
+> 如果你更喜欢使用 TypeScript 而不是 TypeScript，可以看看我的 [TypeScript Library Starter](https://github.com/ajiho/typescript-library-starter)，它提供了与本项目类似的现代化 TypeScript 库开发工具链。
+
 ## 集成
 
-- ⚡ **[Rolldown](https://rolldown.rs/)** — 高性能 JavaScript 打包
-- 🔍 **[Oxlint](https://oxc.rs/docs/guide/usage/linter.html)** — 极速代码检查
-- ✨ **[Oxfmt](https://oxc.rs/docs/guide/usage/formatter.html)** — 极速代码格式化
-- 🧪 **[Vitest](https://vitest.dev/)** — 单元测试与覆盖率
-- 📊 **[Codecov](https://about.codecov.io/)** — 覆盖率报告上传与持续集成分析平台
-- 📦 **[Size Limit](https://github.com/ai/size-limit)** — 构建产物体积检测
-- 🪝 **[Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks)** — 轻量 Git Hooks
-- 🚀 **[Release Please](https://github.com/googleapis/release-please)** — 自动化版本管理与发布
-- 📦 **[pnpm](https://pnpm.io/)** — 快速、节省磁盘空间的包管理器
-- 🤖 **[Renovate](https://docs.renovatebot.com/)** — 自动更新依赖版本
-- 📖 **[Publint](https://publint.dev/docs/)** — npm 包配置与发布产物检查
+- [Rolldown](https://rolldown.rs/) — 高性能 JavaScript 打包
+- [Oxlint](https://oxc.rs/docs/guide/usage/linter.html) — 极速代码检查
+- [Oxfmt](https://oxc.rs/docs/guide/usage/formatter.html) — 极速代码格式化
+- [Vitest](https://vitest.dev/) — 单元测试与覆盖率
+- [Codecov](https://about.codecov.io/) — 覆盖率报告上传与持续集成分析平台
+- [Size Limit](https://github.com/ai/size-limit) — 构建产物体积检测
+- [Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks) — 轻量 Git Hooks
+- [Release Please](https://github.com/googleapis/release-please) — 自动化版本管理与发布
+- [pnpm](https://pnpm.io/) — 快速、节省磁盘空间的包管理器
+- [Renovate](https://docs.renovatebot.com/) — 自动更新依赖版本
+- [Publint](https://publint.dev/docs/) — npm 包配置与发布产物检查
 
 ## 使用
 

@@ -13,19 +13,24 @@ A modern starter template for JavaScript library development.
 
 Provides a complete toolchain from development, testing, building to publishing out of the box, allowing you to focus on writing high-quality JavaScript libraries without repeatedly setting up basic engineering configurations.
 
+> [!TIP]
+> **Prefer TypeScript?**
+>
+> If you prefer using TypeScript over JavaScript, check out my [TypeScript Library Starter](https://github.com/ajiho/typescript-library-starter), which provides a modern toolchain for TypeScript library development similar to this project.
+
 ## Integrations
 
-- ⚡ **[Rolldown](https://rolldown.rs/)** — High-performance JavaScript bundler
-- 🔍 **[Oxlint](https://oxc.rs/docs/guide/usage/linter.html)** — Blazingly fast linter
-- ✨ **[Oxfmt](https://oxc.rs/docs/guide/usage/formatter.html)** — Blazingly fast formatter
-- 🧪 **[Vitest](https://vitest.dev/)** — Unit testing & code coverage
-- 📊 **[Codecov](https://about.codecov.io/)** — Code coverage reporting & CI analysis platform
-- 📦 **[Size Limit](https://github.com/ai/size-limit)** — Bundle size checker
-- 🪝 **[Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks)** — Lightweight Git hooks
-- 🚀 **[Release Please](https://github.com/googleapis/release-please)** — Automated versioning and publishing
-- 📦 **[pnpm](https://pnpm.io/)** — Fast, disk-space efficient package manager
-- 🤖 **[Renovate](https://docs.renovatebot.com/)** — Automated dependency updates
-- 📖 **[Publint](https://publint.dev/docs/)** — npm package config & publish artifact checking
+- [Rolldown](https://rolldown.rs/) — High-performance JavaScript bundler
+- [Oxlint](https://oxc.rs/docs/guide/usage/linter.html) — Blazingly fast linter
+- [Oxfmt](https://oxc.rs/docs/guide/usage/formatter.html) — Blazingly fast formatter
+- [Vitest](https://vitest.dev/) — Unit testing & code coverage
+- [Codecov](https://about.codecov.io/) — Code coverage reporting & CI analysis platform
+- [Size Limit](https://github.com/ai/size-limit) — Bundle size checker
+- [Simple Git Hooks](https://github.com/toplenboren/simple-git-hooks) — Lightweight Git hooks
+- [Release Please](https://github.com/googleapis/release-please) — Automated versioning and publishing
+- [pnpm](https://pnpm.io/) — Fast, disk-space efficient package manager
+- [Renovate](https://docs.renovatebot.com/) — Automated dependency updates
+- [Publint](https://publint.dev/docs/) — npm package config & publish artifact checking
 
 ## Usage
 
