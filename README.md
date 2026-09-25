@@ -13,7 +13,8 @@
 开箱即用地提供从开发、测试、构建到发布的完整工具链，让你专注于编写高质量的 JavaScript 库，而无需重复搭建基础工程配置。
 
 > [!TIP]
-> 喜欢使用 TypeScript？
+> **喜欢使用 TypeScript？**
+>
 > 如果你更喜欢使用 TypeScript 而不是 TypeScript，可以看看我的 [TypeScript Library Starter](https://github.com/ajiho/typescript-library-starter)，它提供了与本项目类似的现代化 TypeScript 库开发工具链。
 
 ## 集成
