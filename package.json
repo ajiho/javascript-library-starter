@@ -50,7 +50,7 @@
     "check": "run-s lint coverage build publint"
   },
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^14.0.0",
+    "@size-limit/preset-small-lib": "^14.1.0",
     "@vitest/coverage-v8": "^4.1.11",
     "@vitest/ui": "^4.1.11",
     "cross-env": "^10.1.0",
@@ -63,7 +63,7 @@
     "rolldown": "^1.2.10",
     "rolldown-plugin-copy-files": "^0.2.0",
     "simple-git-hooks": "^2.14.0",
-    "size-limit": "^14.0.0",
+    "size-limit": "^14.1.0",
     "vitest": "^4.1.11"
   },
   "simple-git-hooks": {
